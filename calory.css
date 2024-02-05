@@ -1,0 +1,127 @@
+body {
+  background: var(
+    --gradient-2,
+    linear-gradient(50deg, rgb(84, 8, 84) 2%, rgb(41, 41, 127) 95%)
+  );
+  color: antiquewhite;
+}
+.nav {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+.nav a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  height: 1rem;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 2px solid rgb(46, 25, 121);
+  border-radius: 4px;
+  color: white;
+  background: var(
+    --gradient-2,
+    linear-gradient(90deg, rgb(84, 8, 84) 0%, rgb(41, 41, 127) 90%)
+  );
+  margin-top: 1rem;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  width: 14rem;
+  height: 2rem;
+  background-color: rgb(94, 66, 193);
+  border-radius: 1rem;
+  box-shadow: 3px 5px 15px rgb(7, 6, 7);
+
+  border: 0.1rem solid rgb(41, 41, 127);
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(1, 6, 4);
+  width: 5rem;
+  border-radius: 1rem;
+  height: 2.2rem;
+  background-color: rgb(156, 186, 233);
+  box-shadow: 2px 6px 15px rgb(24, 22, 27);
+  border: 0.1rem solid rgb(41, 40, 43);
+  margin-left: 0.5rem;
+  border: 2px solid blueviolet;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 5px 10px rgb(57, 57, 56);
+}
+
+.searchBox {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  overflow: auto;
+  margin: 2rem;
+  padding: 1rem;
+
+  /* box-shadow: 2px 5px 10px peru; */
+  border-radius: 1rem;
+}
+.box1 {
+  height: 12rem;
+  width: 25rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(162, 52, 52);
+  box-shadow: 2px 5px 10px rgb(127, 78, 29);
+}
+
+.box2 {
+  height: 12rem;
+  width: 25rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(162, 52, 52);
+  margin-bottom: 2rem;
+  box-shadow: 2px 5px 10px rgb(127, 78, 29);
+}
+
+.box3 {
+  height: 12rem;
+  width: 25rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(162, 52, 52);
+  margin-bottom: 2rem;
+  box-shadow: 2px 5px 10px rgb(127, 78, 29);
+}
+
+.box4 {
+  height: 12rem;
+  width: 25rem;
+  border-radius: 1rem;
+  border: 1px solid rgb(162, 52, 52);
+  margin-bottom: 2rem;
+  box-shadow: 2px 5px 10px rgb(127, 78, 29);
+}
+
+li {
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0 0 0 2rem;
+  color: peru;
+}
