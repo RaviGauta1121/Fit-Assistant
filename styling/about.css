@@ -1,5 +1,6 @@
 body{
     background: var(--gradient-2,linear-gradient(50deg , rgb(84, 8, 84) 2%, rgb(88, 88, 201) 95%));
+    font-size: 1.5rem;
 
 }
 
