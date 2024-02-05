@@ -13,10 +13,10 @@ body {
   margin-right: 2rem;
 }
 .nav a {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  height: 1rem;
-  width: 3.5rem;
+  height: 3rem;
+  width: 5.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,9 +34,9 @@ body {
 input {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1rem;
-  width: 14rem;
-  height: 2rem;
+  font-size: 1.5rem;
+  width: 18rem;
+  height: 3.5rem;
   background-color: rgb(94, 66, 193);
   border-radius: 1rem;
   box-shadow: 3px 5px 15px rgb(7, 6, 7);
@@ -47,10 +47,11 @@ input {
 button {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
+  font-size: 1.1rem;
   color: rgb(1, 6, 4);
   width: 5rem;
   border-radius: 1rem;
-  height: 2.2rem;
+  height: 4rem;
   background-color: rgb(156, 186, 233);
   box-shadow: 2px 6px 15px rgb(24, 22, 27);
   border: 0.1rem solid rgb(41, 40, 43);
@@ -67,61 +68,38 @@ button:hover {
   display: flex;
   align-self: center;
   justify-content: center;
+  margin-top: -1rem;
 }
 
-.box {
+.boxs {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
   overflow: auto;
-  margin: 2rem;
+  margin:3rem 3rem  0;
   padding: 1rem;
 
   /* box-shadow: 2px 5px 10px peru; */
   border-radius: 1rem;
 }
-.box1 {
-  height: 12rem;
-  width: 25rem;
-  border-radius: 1rem;
-  border: 1px solid rgb(162, 52, 52);
-  box-shadow: 2px 5px 10px rgb(127, 78, 29);
-}
-
-.box2 {
-  height: 12rem;
-  width: 25rem;
+.box{
+  font-size: 2rem;
+  height: 20rem;
+  width: 40rem;
   border-radius: 1rem;
   border: 1px solid rgb(162, 52, 52);
   margin-bottom: 2rem;
   box-shadow: 2px 5px 10px rgb(127, 78, 29);
 }
-
-.box3 {
-  height: 12rem;
-  width: 25rem;
-  border-radius: 1rem;
-  border: 1px solid rgb(162, 52, 52);
-  margin-bottom: 2rem;
-  box-shadow: 2px 5px 10px rgb(127, 78, 29);
-}
-
-.box4 {
-  height: 12rem;
-  width: 25rem;
-  border-radius: 1rem;
-  border: 1px solid rgb(162, 52, 52);
-  margin-bottom: 2rem;
-  box-shadow: 2px 5px 10px rgb(127, 78, 29);
-}
-
 li {
-  margin: 2rem;
+  margin: 2.5rem;
 }
 
 h1 {
-  font-size: 3rem;
-  margin: 0 0 0 2rem;
+  font-size: 5rem;
+  margin: -1rem 0 0 2.5rem;
   color: peru;
 }
+
+
