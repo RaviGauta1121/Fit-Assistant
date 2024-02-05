@@ -68,5 +68,4 @@ btn.addEventListener("click", () => {
 
 let Refresh = document.querySelector(".Refresh");
 Refresh.addEventListener("click", () => {
-  location.reload(true);
-});
+  location.reload(true);});
