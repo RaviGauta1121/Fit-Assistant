@@ -24,14 +24,16 @@ a {
   margin-right: 2rem;
   margin-top: 1rem;
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: flex-end;
   gap: 1.5rem;
+  
+ 
 }
 
 
 .nav a {
-  margin: 0.5rem;
+  margin: 0.8rem;
 }
 a:hover {
   filter: drop-shadow(5px 2px 15px #ffffff);
@@ -60,7 +62,7 @@ h1 {
 }
 
 .shortcut {
-  margin-top: 4rem;
+  margin-bottom:2rem;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -123,4 +125,22 @@ h1 {
 }
 .heart-plush{
   font-size: 6.5rem;
+}
+
+.img img{
+  height: 9.5rem;
+  width: 10rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 2rem;
+}
+.nav{
+  height: 10rem;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
