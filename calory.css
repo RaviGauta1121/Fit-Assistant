@@ -1,10 +1,25 @@
 body {
-  background: var(
-    --gradient-2,
-    linear-gradient(50deg, rgb(84, 8, 84) 2%, rgb(41, 41, 127) 95%)
-  );
-  color: antiquewhite;
+ 
+  color: rgb(255, 255, 255);
   height: 150vh;
+  
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #ffffff56;
+}
+
+*::-webkit-scrollbar {
+  width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #231a9b56;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 100px;
 }
 .nav {
   display: flex;
@@ -14,51 +29,23 @@ body {
   margin-right: 2rem;
 }
 .nav a {
+  margin: 0.5rem;
   font-size: 1.5rem;
   font-weight: 500;
-  height: 3rem;
-  width: 6.5rem;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  height: 2.5rem;
+  width: 6.4rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
   text-decoration: none;
-  border: 2px solid rgb(46, 25, 121);
-  border-radius: 4px;
-  color: white;
+  border: 2px solid rgba(46, 25, 121, 0.313);
+  border-radius: 0.5rem;
+  color: rgba(255, 255, 255, 0.751);
   background: var(
     --gradient-2,
-    linear-gradient(90deg, rgb(84, 8, 84) 0%, rgb(41, 41, 127) 90%)
+    linear-gradient(90deg, rgb(22, 15, 39) 0%, rgb(49, 30, 21) 90%)
   );
   margin-top: 1rem;
-  flex-direction: row;
-}
-
-input {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1.5rem;
-  width: 18rem;
-  height: 3.5rem;
-  background-color: rgb(94, 66, 193);
-  border-radius: 1rem;
-  box-shadow: 3px 5px 15px rgb(7, 6, 7);
-
-  border: 0.1rem solid rgb(41, 41, 127);
-}
-
-button {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: rgb(1, 6, 4);
-  width: 5rem;
-  border-radius: 1rem;
-  height: 4rem;
-  background-color: rgb(156, 186, 233);
-  box-shadow: 2px 6px 15px rgb(24, 22, 27);
-  border: 0.1rem solid rgb(41, 40, 43);
-  margin-left: 0.5rem;
-  border: 2px solid blueviolet;
 }
 
 button:hover {
@@ -66,12 +53,7 @@ button:hover {
   box-shadow: 2px 5px 10px rgb(57, 57, 56);
 }
 
-.searchBox {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  margin-top: -1rem;
-}
+
 
 .boxs {
   display: flex;
@@ -88,18 +70,15 @@ button:hover {
   width: 37rem;
   border-radius: 1rem;
   border: 1px solid rgb(162, 52, 52);
-  margin-bottom: 2rem;
   box-shadow: 2px 5px 10px rgb(127, 78, 29);
+  margin-bottom: 2rem;
+
 }
 li {
   margin: 2.5rem;
 }
 
-h1 {
-  font-size: 5rem;
-  margin: -1rem 0 0 2.5rem;
-  color: peru;
-}
+
 
 .navigation{
   display: flex;
@@ -107,4 +86,75 @@ h1 {
 }
 body{
   overflow: auto;
+}
+
+.searchBox {
+  display: flex;
+  height: 5rem;
+  max-width: 22rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: #2f353d;
+  border-radius: 50px;
+  position: relative;
+  padding: 0;
+  margin: 1rem 0 0 23rem;
+}
+
+.searchButton {
+  color: white;
+  position: absolute;
+  right: 1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: inline-block;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.Refresh {
+  margin-left: 5rem;
+  width: 6rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-weight: 600;
+  color: azure;
+}
+button {
+  background: var(--gradient-2, linear-gradient(to right, yellow, #fd0000));
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.searchBox button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+  transform: translateY(-3px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.input{
+   margin-right: 25rem; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.searchInput {
+  border: none;
+  background: none;
+
+  outline: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
