@@ -4,10 +4,11 @@ body {
     linear-gradient(50deg, rgb(84, 8, 84) 2%, rgb(41, 41, 127) 95%)
   );
   color: antiquewhite;
+  height: 150vh;
 }
 .nav {
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: flex-end;
   gap: 1rem;
   margin-right: 2rem;
@@ -16,9 +17,9 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   height: 3rem;
-  width: 5.4rem;
+  width: 6.5rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-decoration: none;
   border: 2px solid rgb(46, 25, 121);
@@ -29,6 +30,7 @@ body {
     linear-gradient(90deg, rgb(84, 8, 84) 0%, rgb(41, 41, 127) 90%)
   );
   margin-top: 1rem;
+  flex-direction: row;
 }
 
 input {
@@ -83,7 +85,7 @@ button:hover {
 .box{
   font-size: 2rem;
   height: 20rem;
-  width: 40rem;
+  width: 37rem;
   border-radius: 1rem;
   border: 1px solid rgb(162, 52, 52);
   margin-bottom: 2rem;
@@ -99,4 +101,10 @@ h1 {
   color: peru;
 }
 
-
+.navigation{
+  display: flex;
+  flex-direction: row;
+}
+body{
+  overflow: auto;
+}

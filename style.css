@@ -41,17 +41,16 @@ a:hover {
 }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 0.15rem;
-  margin-left: 2.5rem;
   font-weight: 900;
   filter: drop-shadow(2px 0 10px #ffffff);
-  margin-top: -0.5rem;
+  text-align: center;
 }
 .img_body {
   height: 20rem;
@@ -62,7 +61,7 @@ h1 {
 }
 
 .shortcut {
-  margin-bottom:2rem;
+  margin-bottom:5rem;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -134,6 +133,8 @@ h1 {
   left: 0;
   top: 0;
   padding-left: 2rem;
+  cursor: pointer;
+
 }
 .nav{
   height: 10rem;
@@ -144,3 +145,4 @@ h1 {
   justify-content: space-between;
   height: 100vh;
 }
+

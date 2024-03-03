@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness</title>
+    <link rel="stylesheet" href="style.css" />
+
     <link rel="stylesheet" href="fitness.css" />
   </head>
   <body>
     <div class="nav">
-      <a href="index.html"> Home</a>
-      <a href="calory.html">Calories</a>
-      <a href="nutrition.html">Nutrition</a>
+      <div class="img">
+        <img src="Assets/logo.png" alt="" id="logo" />
+      </div>
+      <div class="navigation">
+        <a href="index.html"> Home</a>
+        <a href="calory.html">Calories</a>
+        <a href="nutrition.html">Nutrition</a>
+      </div>
     </div>
 
-    <h1>
-      Fit <br />
-      Yourself
-    </h1>
     <div class="searchBox">
       <select class="custom-select">
         <option value="abdominals">Abdominals</option>
@@ -96,5 +99,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="fitness.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
