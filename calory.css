@@ -167,9 +167,9 @@ button:active {
     height: 7rem;
     width: 7rem;
   }
-  .navbar-nav{
+  .navbar-nav {
     margin-top: 4rem;
-    }
+  }
 
   .nav a {
     color: white;
@@ -179,7 +179,7 @@ button:active {
     width: 6rem;
     height: 2.4rem;
     text-align: center;
-    margin: -.3rem;
+    margin: -0.3rem;
   }
   .custom-select {
     width: 12rem;
@@ -195,14 +195,13 @@ button:active {
     height: 4.7rem;
     margin-left: -3rem;
     text-align: center;
-    text-decoration-skip: ;
+    text-decoration-skip: none;
   }
   .searchBox {
     margin-top: 7rem;
     width: 15rem;
     margin-left: 3rem;
   }
-
 
   .input {
     margin-left: 8rem;
@@ -232,4 +231,9 @@ a {
   top: 0;
   right: 0;
   margin: 1rem;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

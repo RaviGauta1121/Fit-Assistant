@@ -21,7 +21,7 @@ body {
   height: 173vh;
 }
 
-.img img{
+.img img {
   height: 10.5rem;
   width: 13rem;
 }
@@ -44,9 +44,9 @@ a {
   font-weight: 500;
   height: 2.5rem;
   width: 6.3rem;
-display: flex;
-align-items: center;
-align-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
   text-decoration: none;
   border: 2px solid rgba(46, 25, 121, 0.313);
   border-radius: 0.5rem;
@@ -108,12 +108,10 @@ select {
   box-shadow: 3px 5px 15px rgb(7, 6, 7);
 }
 
-
 button:hover {
   transform: translateY(-2px);
   box-shadow: 2px 5px 10px rgb(57, 57, 56);
 }
-
 
 .searchButton {
   color: white;
@@ -157,11 +155,10 @@ button:active {
   position: absolute;
   right: 0;
 }
-a{
+a {
   color: white !important;
-  
 }
-*{
+* {
   color: white;
 }
 
@@ -177,19 +174,16 @@ a{
   position: relative;
   padding: 0;
   color: white;
-  
 }
-.card{
+.card {
   background-color: inherit;
 }
-.navbar-toggler{
+.navbar-toggler {
   position: absolute;
   top: 0;
   right: 0;
-  margin:1rem;
-
+  margin: 1rem;
 }
-
 
 /* Custom styles for the select arrow */
 select.custom-select {
@@ -199,77 +193,69 @@ select.custom-select {
   appearance: none;
 
   /* Add custom arrow */
-  background-image: url('Assets/down-chevron-svgrepo-com.svg');
+  background-image: url("Assets/down-chevron-svgrepo-com.svg");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 20px 20px; /* Adjust size as needed */
   padding-right: 30px; /* Adjust padding to make room for the arrow */
 }
 
+@media (max-width: 480px) {
+  .img img {
+    height: 7rem;
+    width: 7rem;
+  }
 
+  .nav a {
+    color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+    align-self: center;
+    height: 2.8rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .custom-select {
+    width: 12rem;
+  }
 
+  .Refresh {
+    margin-left: 3rem;
+  }
+  li {
+    margin: 2rem 1rem;
+    font-size: 1.2rem;
+  }
+  .input {
+    margin-top: 5rem;
+    margin-left: 0.5rem;
+  }
+  .refresh {
+    width: 5rem;
+    height: 4.5rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  .searchBox {
+    margin-top: 7rem;
+    width: 25rem;
+    margin-left: 0;
+  }
 
-  @media (max-width: 480px) {
-    .img  img{
-      height: 7rem;
-        width: 7rem;
-      }
-
-      .nav a {
-        
-        color: white;
-        font-size: 1.2rem;
-        display: inline-block;
-        align-self: center;
-        height: 2.8rem;
-        text-align: center;
-        margin-top: 1.5rem;
-        
-      }
-     .custom-select{
-      width: 12rem;
-     }
-      
-      .Refresh {
-        margin-left: 3rem;
-      }
-      li {
-        margin: 2rem 1rem;
-        font-size: 1.2rem;
-      }
-      .input {
-        margin-top: 5rem;
-        margin-left: 0.5rem;
-      }
-      .refresh {
-        width: 5rem;
-        height: 4.5rem;
-        margin-left: 1rem;
-        text-align: center;
-      }
-      .searchBox {
-        margin-top: 7rem;
-        width: 25rem;
-        margin-left: 0;
-      }
-
-      .searchButton{
-        width: 4.5rem;
-        height: 4.5rem;
-      }
-      body{
-        height: 300vh;
-       }
-       .navigation{
-        margin-top: 3rem;
-       }
-       button{
-        margin-left: 0.5rem;
-       }
-       
-    }
-    a {
-      font-size: 1rem;
-    }
-
-    
+  .searchButton {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  body {
+    height: 300vh;
+  }
+  .navigation {
+    margin-top: 3rem;
+  }
+  button {
+    margin-left: 0.5rem;
+  }
+}
+a {
+  font-size: 1rem;
+}
