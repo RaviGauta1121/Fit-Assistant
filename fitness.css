@@ -21,7 +21,10 @@ body {
   height: 173vh;
 }
 
-
+.img img{
+  height: 10.5rem;
+  width: 13rem;
+}
 
 a {
   text-decoration: none;
@@ -34,14 +37,16 @@ a {
   gap: 1rem;
   margin-right: 2rem;
 }
-.nav a {
+.navigation a {
   text-align: center;
   margin: 0.5rem;
   font-size: 1.3rem;
   font-weight: 500;
   height: 2.5rem;
   width: 6.3rem;
-
+display: flex;
+align-items: center;
+align-content: center;
   text-decoration: none;
   border: 2px solid rgba(46, 25, 121, 0.313);
   border-radius: 0.5rem;

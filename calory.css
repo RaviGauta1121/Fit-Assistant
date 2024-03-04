@@ -21,22 +21,22 @@ body {
   background-color: #000000;
   border-radius: 100px;
 }
-.nav {
+.navigation {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 1rem;
   margin-right: 2rem;
 }
-.nav a {
+.navigation a {
   margin: 0.5rem;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   height: 2.5rem;
-  width: 6.4rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
   text-decoration: none;
   border: 2px solid rgba(46, 25, 121, 0.313);
   border-radius: 0.5rem;
@@ -82,7 +82,13 @@ li {
 
 .navigation{
   display: flex;
+  align-items: center;
+  align-content: center;
+
   flex-direction: row;
+  position: absolute;
+  right: 0;
+  color: white;
 }
 body{
   overflow: auto;
@@ -100,6 +106,10 @@ body{
   position: relative;
   padding: 0;
   margin: 1rem 0 0 23rem;
+}
+.img img{
+  height: 10.5rem;
+  width: 13rem;
 }
 
 .searchButton {
@@ -158,3 +168,83 @@ button:active {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 480px) {
+  .img  img{
+    height: 7rem;
+      width: 7rem;
+    }
+
+    .nav a {
+      
+      color: white;
+      font-size: 1.2rem;
+      display: inline-block;
+      align-self: center;
+      height: 2.8rem;
+      text-align: center;
+      margin-top: 4rem;
+      margin-bottom: -4rem;
+      
+    }
+   .custom-select{
+    width: 12rem;
+   }
+    
+    .Refresh {
+      margin-left: 2rem;
+      
+    }
+    li {
+      margin: 2rem 1rem;
+      font-size: 1.2rem;
+    }
+   
+    .Refresh {
+      width: 4.5rem;
+      height: 4.5rem;
+     margin-left: -2rem;
+      text-align: center;
+    }
+    .searchBox {
+    margin-top: 6rem;
+      width: 15rem;
+      margin-left: 2rem;
+    }
+    
+
+    .input{
+      margin-left: 8rem;
+      
+    }
+    body{
+      height: 260vh;
+     }
+     
+     button{
+      margin-left: 0.5rem;
+     }
+     .boxs{
+      margin-top: 0.8rem;
+      width: 17rem;
+     }
+     a{
+      color: white !important;
+     }
+     
+
+   
+  }
+
+  a {
+    font-size: 1rem;
+    color: #fff !important;
+  }
+  .navbar-toggler{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:1rem;
+  
+  }
+  
