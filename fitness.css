@@ -35,11 +35,12 @@ a {
   margin-right: 2rem;
 }
 .nav a {
+  text-align: center;
   margin: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
-  height: 3rem;
-  width: 6rem;
+  height: 2.5rem;
+  width: 6.3rem;
 
   text-decoration: none;
   border: 2px solid rgba(46, 25, 121, 0.313);
@@ -108,18 +109,7 @@ button:hover {
   box-shadow: 2px 5px 10px rgb(57, 57, 56);
 }
 
-.custom-select {
-  display: flex;
-  height: 5rem;
-  max-width: 22rem;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  background: #2f353d;
-  border-radius: 50px;
-  position: relative;
-  padding: 0;
-}
+
 .searchButton {
   color: white;
 
@@ -155,3 +145,126 @@ button:active {
   align-items: center;
   width: 100%;
 }
+.navigation {
+  display: flex;
+}
+.navbar-nav {
+  position: absolute;
+  right: 0;
+}
+a{
+  color: white !important;
+  
+}
+*{
+  color: white;
+}
+
+.custom-select {
+  display: flex;
+  height: 5rem;
+  max-width: 22rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: #f3782bcb;
+  border-radius: 50px;
+  position: relative;
+  padding: 0;
+  color: white;
+  
+}
+.card{
+  background-color: inherit;
+}
+.navbar-toggler{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin:1rem;
+
+}
+
+
+/* Custom styles for the select arrow */
+select.custom-select {
+  /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Add custom arrow */
+  background-image: url('Assets/down-chevron-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 20px 20px; /* Adjust size as needed */
+  padding-right: 30px; /* Adjust padding to make room for the arrow */
+}
+
+
+
+
+  @media (max-width: 480px) {
+    .img  img{
+      height: 7rem;
+        width: 7rem;
+      }
+
+      .nav a {
+        
+        color: white;
+        font-size: 1.2rem;
+        display: inline-block;
+        align-self: center;
+        height: 2.8rem;
+        text-align: center;
+        margin-top: 1.5rem;
+        
+      }
+     .custom-select{
+      width: 12rem;
+     }
+      
+      .Refresh {
+        margin-left: 3rem;
+      }
+      li {
+        margin: 2rem 1rem;
+        font-size: 1.2rem;
+      }
+      .input {
+        margin-top: 5rem;
+        margin-left: 0.5rem;
+      }
+      .refresh {
+        width: 5rem;
+        height: 4.5rem;
+        margin-left: 1rem;
+        text-align: center;
+      }
+      .searchBox {
+        margin-top: 7rem;
+        width: 25rem;
+        margin-left: 0;
+      }
+
+      .searchButton{
+        width: 4.5rem;
+        height: 4.5rem;
+      }
+      body{
+        height: 300vh;
+       }
+       .navigation{
+        margin-top: 3rem;
+       }
+       button{
+        margin-left: 0.5rem;
+       }
+       
+    }
+    a {
+      font-size: 1rem;
+    }
+
+    

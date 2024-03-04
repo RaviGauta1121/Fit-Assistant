@@ -1,5 +1,5 @@
 
-let btn = document.querySelector("button");
+let btn = document.querySelector(".searchButton");
 let select = document.querySelector("select")
 
 const url =  "https://exercises-by-api-ninjas.p.rapidapi.com/v1/exercises?muscle=";

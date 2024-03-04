@@ -216,4 +216,7 @@ h1 {
     .searchBox{
       margin-top: 5rem;
     }
+    body{
+      overflow: auto;
+    }
   }
