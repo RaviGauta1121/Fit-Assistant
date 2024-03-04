@@ -1,4 +1,4 @@
-let btn = document.querySelector("#searchButton");
+let btn = document.querySelector(".searchButton");
 let input = document.querySelector("input");
 
 let b1name = document.querySelector(".b1name");

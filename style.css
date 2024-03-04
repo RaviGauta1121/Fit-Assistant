@@ -127,8 +127,8 @@ h1 {
 }
 
 .img img{
-  height: 9.5rem;
-  width: 10rem;
+  height: 10.5rem;
+  width: 12rem;
   position: absolute;
   left: 0;
   top: 0;
@@ -146,3 +146,74 @@ h1 {
   height: 100vh;
 }
 
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .navigation a {
+    display: none;
+  }
+  .navigation {
+    margin-top: 1rem;
+  }
+  .img img {
+    padding: 0.5rem;
+  }
+  .shortcut {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    margin: 1rem 0;
+  }
+  .centre h1 {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body{
+    overflow: auto;
+    height: 150vh;
+  }
+  .nav {
+    padding: 1rem;
+  }
+  .navigation a {
+    display: none;
+  }
+  .centre h1 {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+  .shortcut {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .box p {
+    font-size: 0.8rem;
+  }
+  .box span{
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .img  img{
+    height: 7rem;
+      width: 7rem;
+    }
+    .searchBox{
+      margin-top: 5rem;
+    }
+  }

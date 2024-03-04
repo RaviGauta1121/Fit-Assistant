@@ -1,6 +1,6 @@
 let input = document.querySelector("input");
 
-let btn = document.querySelector("button");
+let btn = document.querySelector(".searchButton");
 
 const options = {
   method: "GET",
