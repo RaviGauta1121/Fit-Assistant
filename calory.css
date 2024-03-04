@@ -1,8 +1,6 @@
 body {
- 
   color: rgb(255, 255, 255);
   height: 150vh;
-  
 }
 * {
   scrollbar-width: thin;
@@ -53,18 +51,17 @@ button:hover {
   box-shadow: 2px 5px 10px rgb(57, 57, 56);
 }
 
-
-
 .boxs {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
   overflow: auto;
-  margin:3rem 3rem  0; padding: 1rem;
+  margin: 3rem 3rem 0;
+  padding: 1rem;
   border-radius: 1rem;
 }
-.box{
+.box {
   font-size: 2rem;
   height: 20rem;
   width: 37rem;
@@ -72,15 +69,12 @@ button:hover {
   border: 1px solid rgb(162, 52, 52);
   box-shadow: 2px 5px 10px rgb(127, 78, 29);
   margin-bottom: 2rem;
-
 }
 li {
   margin: 2.5rem;
 }
 
-
-
-.navigation{
+.navigation {
   display: flex;
   align-items: center;
   align-content: center;
@@ -90,7 +84,7 @@ li {
   right: 0;
   color: white;
 }
-body{
+body {
   overflow: auto;
 }
 
@@ -107,7 +101,7 @@ body{
   padding: 0;
   margin: 1rem 0 0 23rem;
 }
-.img img{
+.img img {
   height: 10.5rem;
   width: 13rem;
 }
@@ -149,12 +143,11 @@ button:active {
   box-shadow: none;
   transform: translateY(0);
 }
-.input{
-   margin-right: 25rem; 
-  display:flex;
+.input {
+  margin-right: 25rem;
+  display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .searchInput {
   border: none;
@@ -170,81 +163,73 @@ button:active {
 }
 
 @media (max-width: 480px) {
-  .img  img{
+  .img img {
     height: 7rem;
-      width: 7rem;
+    width: 7rem;
+  }
+  .navbar-nav{
+    margin-top: 4rem;
     }
 
-    .nav a {
-      
-      color: white;
-      font-size: 1.2rem;
-      display: inline-block;
-      align-self: center;
-      height: 2.8rem;
-      text-align: center;
-      margin-top: 4rem;
-      margin-bottom: -4rem;
-      
-    }
-   .custom-select{
+  .nav a {
+    color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+    align-self: center;
+    width: 6rem;
+    height: 2.4rem;
+    text-align: center;
+    margin: -.3rem;
+  }
+  .custom-select {
     width: 12rem;
-   }
-    
-    .Refresh {
-      margin-left: 2rem;
-      
-    }
-    li {
-      margin: 2rem 1rem;
-      font-size: 1.2rem;
-    }
-   
-    .Refresh {
-      width: 4.5rem;
-      height: 4.5rem;
-     margin-left: -2rem;
-      text-align: center;
-    }
-    .searchBox {
-    margin-top: 6rem;
-      width: 15rem;
-      margin-left: 2rem;
-    }
-    
-
-    .input{
-      margin-left: 8rem;
-      
-    }
-    body{
-      height: 260vh;
-     }
-     
-     button{
-      margin-left: 0.5rem;
-     }
-     .boxs{
-      margin-top: 0.8rem;
-      width: 17rem;
-     }
-     a{
-      color: white !important;
-     }
-     
-
-   
   }
 
+  li {
+    margin: 2rem 1rem;
+    font-size: 1.2rem;
+  }
+
+  .Refresh {
+    width: 5rem;
+    height: 4.7rem;
+    margin-left: -3rem;
+    text-align: center;
+    text-decoration-skip: ;
+  }
+  .searchBox {
+    margin-top: 7rem;
+    width: 15rem;
+    margin-left: 3rem;
+  }
+
+
+  .input {
+    margin-left: 8rem;
+  }
+  body {
+    height: 260vh;
+  }
+
+  button {
+    margin-left: 0.5rem;
+  }
+  .boxs {
+    margin-top: 0.8rem;
+    width: 17rem;
+  }
   a {
-    font-size: 1rem;
-    color: #fff !important;
+    color: white !important;
   }
-  .navbar-toggler{
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin:1rem;
-  
-  }
-  
+}
+
+a {
+  font-size: 1rem;
+  color: #fff !important;
+}
+.navbar-toggler {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+}
