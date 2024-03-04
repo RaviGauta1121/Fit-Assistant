@@ -2,6 +2,13 @@ body {
   color: rgb(255, 255, 255);
   height: 150vh;
 }
+body{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
 * {
   scrollbar-width: thin;
   scrollbar-color: #000000 #ffffff56;

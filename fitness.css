@@ -20,6 +20,13 @@ body {
   overflow: auto;
   height: 173vh;
 }
+body{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
 
 .img img {
   height: 10.5rem;
