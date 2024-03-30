@@ -46,7 +46,7 @@ button {
 .searchBox {
   display: flex;
   height: 5rem;
-  max-width: 22rem;
+  max-width: 20rem;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
@@ -69,13 +69,14 @@ button {
   transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 .Refresh {
-  margin-left: 4rem;
+  margin-left: 2rem;
   width: 5rem;
-  height: 4.8rem;
+  height: 4rem;
   border-radius: 50%;
   border: 2px solid white;
   font-weight: 600;
   color: azure;
+  aspect-ratio: 1;
 }
 .navbar {
   padding: 1rem; /* Adjust padding as needed */
@@ -110,6 +111,10 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.navbar-toggler{
+  border-radius: 50px;
+
 }
 
 .searchInput {
@@ -146,6 +151,7 @@ li::marker {
 }
 .navigation {
   display: flex;
+  
 }
 .navbar-nav {
   position: absolute;

@@ -61,7 +61,7 @@ btn.addEventListener("click", ()=>{
 
 
 
-let refresh = document.querySelector(".Refresh");
+let refresh = document.querySelector(".refresh");
 refresh.addEventListener("click",()=>{
     location.reload(true);
 })
