@@ -184,7 +184,7 @@ h1 {
 @media screen and (max-width: 480px) {
   body{
     overflow: auto;
-    height: 150vh;
+    height: 160vh;
   }
   .nav {
     padding: 1rem;
@@ -213,6 +213,13 @@ h1 {
   .box span{
     margin-top: 0.5rem;
     text-align: center;
+  }
+  .calories{
+   margin-left: 1.8rem;
+  }
+  .heart{
+    margin-left: 1.6rem;
+    margin-top: .6rem;
   }
 }
 @media (max-width: 480px) {
