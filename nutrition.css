@@ -222,7 +222,7 @@ li::marker {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 345px) {
   body{
     height: 65rem;
   }
@@ -235,11 +235,11 @@ li::marker {
     color: white;
     font-size: 1.2rem;
     display: inline-block;
-    margin: 0.5rem;
+    margin: .2rem;
   }
   .searchBox {
     max-height: 4.5rem;
-    max-width: 15rem;
+    max-width: 14rem;
     margin-left: 1rem;
   }
   .searchInput {
@@ -259,7 +259,7 @@ li::marker {
     font-size: 0.9rem;
     width: 4rem;
     height: 4rem;
-    margin: 0;
+    margin: -1rem;
   }
   .searchButton {
     height: 4rem;
