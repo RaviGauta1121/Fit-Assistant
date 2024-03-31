@@ -5,6 +5,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   overflow-y: hidden;
+ 
 }
 a {
   text-decoration: none;
@@ -138,8 +139,8 @@ li {
   font-size: 2rem;
 }
 .img img {
-  height: 10.5rem;
-  width: 14rem;
+  height: 10.4rem;
+  width: 13rem;
 }
 li::marker {
   content: "🔹";
